@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 // Connect to MongoDB database
 /*mongoose.connect('mongodb+srv://mwauraanthony11:anthony123@cluster0.zqedtfx.mongodb.net/ussd-app', { useNewUrlParser: true, useUnifiedTopology: true })
